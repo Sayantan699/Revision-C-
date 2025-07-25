@@ -38,11 +38,13 @@ int main()
     }
 
     cout << endl;
-    cout << "The elements of the array after bubble sorting are: " << endl;
+    
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     }
+
+    
 
     return 0;
 }
